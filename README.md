@@ -6,9 +6,9 @@ This project involves building and training a basic **Autoencoder** using the **
 ## Model Architecture
 The model is composed of two primary functional components:
 
-*1.**Encoder**: Flattens the $28\times28$ grayscale image (784 pixels) and compresses it into a **32-unit latent representation** using Dense layers with ReLU activation.
+1.**Encoder**: Flattens the $28\times28$ grayscale image (784 pixels) and compresses it into a **32-unit latent representation** using Dense layers with ReLU activation.
 
-*2.**Decoder**: Reconstructs the original image from the latent space using a series of Dense layers, ending with a **Sigmoid activation** to ensure output pixel values remain between 0 and 1.
+2.**Decoder**: Reconstructs the original image from the latent space using a series of Dense layers, ending with a **Sigmoid activation** to ensure output pixel values remain between 0 and 1.
 
 ### Model Summary
 The following requirements were met for the architecture:
